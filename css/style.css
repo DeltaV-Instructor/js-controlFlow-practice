@@ -1,0 +1,47 @@
+/* * {
+  outline: 2px dashed grey;
+} */
+body {
+  margin: 0 auto;
+  width: 1200px;
+/* trouble    top   r   b      l */
+  /* margin: 100px 20px 30px 400px; */
+  background-color: #965dcf;
+  margin-top: 25px;
+  margin-bottom:25px;
+}
+
+
+main {
+  background-color: #d3aef8;
+}
+
+
+
+.inline-p {
+  display: inline-block;
+  outline: 2px dashed rgb(236, 22, 22);
+}
+
+#empty-div {
+  width: 200px;
+  height: 200px;
+  background-color: #482669;
+}
+
+
+#para-div {
+  width: 90%;
+  height: 90%;
+  color: aliceblue;
+  background-color: #6408c7;
+}
+
+#footer-box {
+  padding: 20px;
+}
+
+#overflow-box {
+  max-height: 150px;
+  overflow: scroll;
+}
